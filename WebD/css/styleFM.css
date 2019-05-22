@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     background-image: url("../images/4.jpg");
 }
 .container {
@@ -17,6 +18,8 @@ ul li a {
 .person:hover {
     opacity: 1.0;
     border-color: azure;
+    transition-duration: 0.2s;
+    transform: scale(1.15);
 }
 
 .navbar-brand {
