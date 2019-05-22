@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/4.jpg");
+}
+.container {
+    padding: 50px;
+}
+.person {
+    border: 10px solid transparent;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+ul li a {
+    font-size: 1.2em;
+}
+
+.person:hover {
+    opacity: 1.0;
+    border-color: azure;
+}
+
+.navbar-brand {
+    padding: 0px;
+  }
+  .navbar-brand img {
+    height: 100%;
+    padding: 0px 0px 0px 20px;
+    width: auto;
+  }
+
+   p {
+      font-weight: bolder;
+      color: aliceblue;
+  }
+
+  h1 {
+      color: aliceblue;
+  }
+
+  h3 {
+      color: aquamarine;
+  }
