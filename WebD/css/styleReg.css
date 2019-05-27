@@ -1,0 +1,14 @@
+.container {
+    width: 400px;
+    height: auto;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+   
+    }

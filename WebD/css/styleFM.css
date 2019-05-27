@@ -1,9 +1,13 @@
 body {
     box-sizing: border-box;
     background-image: url("../images/4.jpg");
+} 
+
+.fa {
+    color: cyan;
 }
 .container {
-    padding: 50px;
+    padding: 25px;
 }
 .person {
     border: 10px solid transparent;
