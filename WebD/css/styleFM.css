@@ -1,22 +1,19 @@
 body {
     box-sizing: border-box;
     background-image: url("../images/4.jpg");
+    
 } 
 
 .fa {
     color: cyan;
 }
-.container {
-    
-}
+
 .person {
     border: 10px solid transparent;
     width: 100%;
     height: auto;
     opacity: 0.7;
 }
-
-
 
 
 .person:hover {

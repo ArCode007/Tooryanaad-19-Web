@@ -1,0 +1,35 @@
+body {
+   background-image: url("../images/4.jpg");
+   box-sizing: border-box;
+}
+
+.person {
+    border: 10px solid transparent;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.person:hover {
+    opacity: 1.0;
+    border-color: aliceblue;
+    transition-duration: 0.2s;
+}
+
+
+h1 {
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+h4 {
+    color: aquamarine;
+}
+
+h5 {
+    color: azure;
+}
+
+.fa {
+    color: cyan;
+}
