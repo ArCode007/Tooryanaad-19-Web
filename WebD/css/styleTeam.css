@@ -1,6 +1,7 @@
 body {
    background-image: url("../images/4.jpg");
    box-sizing: border-box;
+   font-family: 'Mukta';
 }
 
 .person {

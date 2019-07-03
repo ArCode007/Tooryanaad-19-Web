@@ -9,15 +9,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!-- icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Mukta' rel='stylesheet'>
   <link rel="stylesheet" href="css/styleReg.css">   
 </head>
 <body>
-    <div class="container text-center">
-        <h1>पंजीयन</h1>
-        <br><hr>
+    <div class="container">
+        <h1 class="text-center">पंजीयन</h1>
+          <hr>
 
-    
-            <form>
+            <form action="#">
                     <div class="form-group">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -33,7 +33,7 @@
                     <div class="form-group">
                             <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                      <input type="email" class="form-control" name="email" placeholder="अणुडाक" required>
+                      <input type="email" class="form-control" name="email" placeholder="अणुडाक (Email)" required>
                     </div>
                     </div>
                   <div class="form-group">
@@ -43,9 +43,35 @@
                   placeholder="संपर्क सूत्र (मोबाइल नंबर)" required>
                   </div>
                   </div>
+
+                  <div class="row" style="margin-left:10%;">
+
+                    <div class="col-sm-4">
+                      <label class="checkbox"><input type="checkbox" value="">कवि सम्मेलन</label>
+                      <label class="checkbox"><input type="checkbox" value="">नुक्कड़ नाटक</label>
+                      <label class="checkbox"><input type="checkbox" value="">खिचड़ी</label>
+                      <label class="checkbox"><input type="checkbox" value="">संयोजन</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <label class="checkbox"><input type="checkbox" value="">रचनात्मक लेखन</label>
+                      <label class="checkbox"><input type="checkbox" value="">भारत मंथन</label>
+                      <label class="checkbox"><input type="checkbox" value="">भारतीय परिधानिका</label>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <label class="checkbox"><input type="checkbox" value="">सृजन</label>
+                      <label class="checkbox"><input type="checkbox" value="">समूह नृत्य</label>
+                      <label class="checkbox"><input type="checkbox" value="">प्रज्ञान</label>
+                    </div>
+
+                    </div>
+
+                    <div class="text-center">
                     <button type="submit" class="btn btn-primary">पंजीयन करें</button>
+                    </div>
                   </form>
-<br><hr>    
+<hr>    
 
 </div>
 </body>
