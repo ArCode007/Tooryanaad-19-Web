@@ -1,3 +1,2 @@
 # Tooryanaad-19-Web
-Static webpage template of Founding Members,Team and Registration page.
-HTML CSS Bootstrap
+Static webpage template of Founding Members,Team and Registration page using HTML CSS Bootstrap.
